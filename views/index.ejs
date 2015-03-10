@@ -6,12 +6,12 @@
     <link rel='stylesheet' href='/stylesheets/app.css' />
   </head>
   <body>
-    <div class="container">
-      <h1><%= title %></h1>
-      <p>Welcome to <%= title %></p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, rem.</p>
-    </div>
     
+    <% include partials/header.ejs %>
+    <% include partials/content.ejs %>
+    <% include partials/footer.ejs %>
+    
+    <!-- JavaScript Section -->
     <script src="/javascripts/jquery.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
     <script src="/javascripts/custom.js"></script>
